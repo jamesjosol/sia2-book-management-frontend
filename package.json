@@ -1,15 +1,13 @@
 {
   "name": "sia2-book-management-frontend",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x"
-  },
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
